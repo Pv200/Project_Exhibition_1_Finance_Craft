@@ -24,8 +24,7 @@
   margin-left: auto ;
   margin-right: auto;
 }
-.nav-text{
-}
+
 .container-main{
   display: flex;
   flex-direction: column;
@@ -64,7 +63,7 @@ hr.first{
 .container-main-1{
   display: flex;
   flex-direction: row;
-  background-color: #9babb874;
+  background-color: #ffffff;
 
   gap: 100px;
   margin:5%;
@@ -96,13 +95,22 @@ hr.first{
   text-align: justify;
 
 }
-
+.img-div-c-2{
+  height:400px;
+  border-radius:20px;
+  margin-top:auto;
+  margin-bottom:auto;
+}
 
 .img-cm-1{
   height:400px;
-  width: 400px;
+  width: 450px;
   animation-name:img-cm-1;
-  animation-duration:3s;
+  border-radius:20px;
+  border-style: solid;
+  border-color: #65451F;
+  box-shadow:20px 20px #65451F ;
+  animation-duration:5s;
   animation-iteration-count:infinite;
   animation-timing-function:ease-in-out;
 
@@ -110,13 +118,17 @@ hr.first{
 
 @keyframes img-cm-1 {
   0%{
-    
+    box-shadow:20px 20px #65451F ;
+  }25%{
+    box-shadow:-20px 20px #65451F ;
   }
   50%{
-    
+    box-shadow:-20px -20px #65451F ;
+  }75%{
+    box-shadow:20px -20px #65451F ;
   }
   100%{
-    
+    box-shadow:20px 20px #65451F ;
   }
   
 }
@@ -129,4 +141,6 @@ hr.first{
   border: 0.1rem #65451F;
   border-style: solid;
 }
+
+/* div 3 */
 
