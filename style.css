@@ -1,6 +1,6 @@
 .navbar-div{
   padding : 5% 5%;
-  padding-bottom: 0px;
+  padding-bottom: 3%;
   
   background-color: rgba(0, 0, 0, 0.415);
 }
@@ -12,7 +12,7 @@
   font-weight: bolder;
 }
 .navbar-nav li a:hover{
-  color:rgb(56, 197, 91);
+  color:#523108;
   font-size: 1.4rem;
 }
 
@@ -38,6 +38,7 @@
 .container-1{
     text-align: center;
     padding: 5%;
+    height:620px;
     
   background-color: rgba(0, 0, 0, 0.415);
 }
@@ -58,34 +59,77 @@ hr.first{
   margin-left: auto;
   margin-right: auto;
 }
+.button-c-1{
+  color:#523108;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 0.71%;
+  background-color: white;
+  border-radius: 6px;
+}
+.button-c-1:active{
+  color:white;
+  background-color: #523108;
+}
+
+.logo{
+  height:200px;
+  width: 200px;
+  animation-name:logo;
+  animation-duration:5s;
+  animation-iteration-count:infinite;
+  animation-timing-function:ease-in-out;
+}
+@keyframes logo {
+  0%{
+   transform: rotate(0deg);
+  }25%{
+    transform: rotate(90deg);
+  }
+  50%{
+    transform: rotate(180deg);
+    
+  }75%{
+    transform: rotate(270deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.button-hr{
+  border-style: solid;
+  border-color: white;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px;
+}
 /*div 2*/
 
 .container-main-1{
   display: flex;
   flex-direction: row;
-  background-color: #ffffff;
+  background-image: url("public/images/n-l-2.jpg");
+  background-size: cover;
 
   gap: 100px;
   margin:5%;
   padding:3%;
   border-radius:20px;
   border-style: solid;
-  border-color: #65451F;
-  box-shadow:20px 25px #65451F ;
-}
-.container-main-1:hover{
-  animation-name:container-main-1;
-  animation-duration:3s;
-  animation-iteration-count:infinite;
-  animation-timing-function:ease-in-out;
+  border-color: #504099;
+  box-shadow:20px 25px #504099 ;
 }
 
 .c-t-2{
   text-align: center;
+  background-color: #ffffff9e;
+  padding: 2%;
+  border-radius: 10px;
 }
 .cm-1-c-h{
-  color: #65451F;
-  text-shadow: 2px 2px #5d656e ;
+  color: #504099;
+  text-shadow: 2px 2px #cdc3f5 ;
   font-family: 'Black Ops One', cursive;
 }
 .cm-1-c-1{
@@ -108,8 +152,8 @@ hr.first{
   animation-name:img-cm-1;
   border-radius:20px;
   border-style: solid;
-  border-color: #65451F;
-  box-shadow:20px 20px #65451F ;
+  border-color: #504099;
+  box-shadow:20px 20px #504099 ;
   animation-duration:5s;
   animation-iteration-count:infinite;
   animation-timing-function:ease-in-out;
@@ -118,29 +162,119 @@ hr.first{
 
 @keyframes img-cm-1 {
   0%{
-    box-shadow:20px 20px #65451F ;
+    box-shadow:20px 20px #504099 ;
   }25%{
-    box-shadow:-20px 20px #65451F ;
+    box-shadow:-20px 20px #504099 ;
   }
   50%{
-    box-shadow:-20px -20px #65451F ;
+    box-shadow:-20px -20px #504099 ;
   }75%{
-    box-shadow:20px -20px #65451F ;
+    box-shadow:20px -20px #504099 ;
   }
   100%{
-    box-shadow:20px 20px #65451F ;
+    box-shadow:20px 20px #504099 ;
   }
   
 }
 .about-us-text{
   font-family: 'Stint Ultra Condensed', serif;
-  color: #65451F;
+  color: #504099;
   font-size: 1.8rem;
 }
 .second{
-  border: 0.1rem #65451F;
+  border: 0.009 #2f00ff;
   border-style: solid;
 }
 
 /* div 3 */
+.container-feature{
+  margin-top:5%;
+}
+.feature-heading{
+  text-align: center;
+  color :#504099;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 7rem;
+}
+.feature-hr{
+  margin-left: auto;
+  margin-right: auto;
+  width : 600px;
+  border-style: solid;
+  border-color: #504099;
+  border-width: 1px;
+}
+.f-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 10%;
+}
+.f-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.analyse-f{
+  width: 500px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #504099;
+  padding:4%;
+  box-shadow : 20px 10px #504099;
+  background-image: url("public/images/n-l-2.jpg");
+  background-size: cover;
 
+}
+.analyse-f-heading{
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Black Ops One', cursive;
+  color: #504099;
+  text-shadow: 2px 2px #cdc3f5 ;
+}
+.analyse-f-text{
+  text-align: justify;
+  font-family: 'Stint Ultra Condensed', serif;
+  font-size: 1.7rem;
+  color: #504099;
+  padding : 5%;
+  border-radius: 10px;
+  background-color: #ffffff9e;
+}
+.analyse-f-img{
+  height:300px;
+  width: 400px;
+}
+.predict-f{
+  width: 500px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #504099;
+  padding:4%;
+  box-shadow : 20px 10px #504099;
+  background-image: url("public/images/n-l-2.jpg");
+  background-size: cover;
+
+}
+.predict-f-heading{
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Black Ops One', cursive;
+  color: #504099;
+  text-shadow: 2px 2px #cdc3f5 ;
+}
+.predict-f-text{
+  text-align: justify;
+  font-family: 'Stint Ultra Condensed', serif;
+  font-size: 1.7rem;
+  color: #504099;
+  height : 200px;
+  padding : 5%;
+  border-radius: 10px;
+  background-color: #ffffff9e;
+}
+.predict-f-img{
+  height:300px;
+  width: 350px;
+}
