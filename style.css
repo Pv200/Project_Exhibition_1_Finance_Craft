@@ -223,6 +223,8 @@ hr.first{
   border-style: solid;
   border-color: #504099;
   padding:4%;
+  margin-left: auto;
+  margin-right: auto;
   box-shadow : 20px 10px #504099;
   background-image: url("public/images/n-l-2.jpg");
   background-size: cover;
@@ -257,7 +259,8 @@ hr.first{
   box-shadow : 20px 10px #504099;
   background-image: url("public/images/n-l-2.jpg");
   background-size: cover;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 .predict-f-heading{
   font-size: 2rem;
@@ -280,3 +283,69 @@ hr.first{
   height:300px;
   width: 350px;
 }
+/* part 4*/
+.container-c{
+  margin:5%;
+  text-align:center;
+  
+  background-size:cover;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #504099;
+  padding:4%;
+  box-shadow : 20px 10px #504099;
+  background-image: url("public/images/n-l-2.jpg");
+  background-size: cover;
+}
+.demo{
+  height:600px;
+}
+.carousel-inner{
+  padding-bottom:auto;
+  padding-top:auto;
+  align-items: center;
+  height:900px;
+  
+}
+.carousel-item{
+  height: 550px;
+  padding: 5%;
+}
+.card{
+  
+  width:600px;
+  align-items: center;
+  height: 550px;
+  border-radius: 20px;
+  border-style: solid;
+  margin-left:50%;
+  padding-bottom:5%;
+  background-color:#ffffff81;
+
+}
+.card-body{
+  height:300px;
+  width:600px;
+  
+}
+.img-news, .img-guide, .img-feedback {
+  height:300px;
+  width:600px;
+  border-radius: 20px;
+}
+.heading-card{
+  font-size: 2rem;
+  text-align: center;
+  font-family: 'Black Ops One', cursive;
+  color: #504099;
+  text-shadow: 2px 2px #cdc3f5;
+}
+
+.heading-cc{
+  color :#504099;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 7rem;
+
+}
+
+
