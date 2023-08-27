@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="public/images/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -107,49 +108,75 @@
     </section>
     <!-- pv section ends here -->
     <!-- c section starts here -->
-    <section id="features">
-        <div class="container-features">
-            <h1 class="feature-heading">Features</h1>
-            <br>
-            <hr class="feature-hr">
-            <br>
-            <br>
-            <div class="f-1">
-                <div class="analyse-f">
-                    <h3 class="analyse-f-heading">Analyse</h3>
-                    <br>
-                    <img class="analyse-f-img" src="public/images/analyse.gif">
-                    <hr>
-                    <p class="analyse-f-text">Analyse real-time stock data and share market trends. Identify patterns and correlations to provide insights into potential investment opportunities and risks.</p>
-                </div>
-                <div class="predict-f">
-                    <h3 class="predict-f-heading">Predict</h3>
-                    <br>
-                    <img class="predict-f-img" src="public/images/predict.gif">
-                    <hr>
-                    <p class="predict-f-text">Helps you in investing by prediciting market conditions based on historical price and volume data of financial instruments.</p>
-                </div>
-            </div>
-            <div class="f-2">
-                <div class="additonal-f">
-                    <h3>Additional Features</h3>
-                    <div  class="additional-f-text">
-                        <h4><em>Guide</em></h4><br>
-                        <p>Helps beginners by demystifying the world of stocks, offering clear explanations of key concepts, risk management strategies, and tips for successful investing.</p>
-                        <h4><em>News</em></h4><br>
-                        <p>Stay informed about the latest market trends and stock updates. Discover insights on market movements, notable stock performances, and key economic events shaping investment decisions. </p>
-                        <h4><em>Feedback</em></h4><br>
-                        <p>kindly share your thoughts and experiences concisely. Mention what you liked, what could be improved, and any suggestions you have.</p>
+    
+    <!-- c section ends here -->
+    <div class="container-c">
+        <h3 class="heading-cc">Features</h3>
+        <hr>
+        <br>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="analyse-f">
+                        <h3 class="analyse-f-heading"><strong>FEEDBACK</strong></h3>
+                        <img src="public/images/feedback.gif" class="analyse-f-img">
+                        
+                        
+                        
+                        <hr>
+                        <br>
+                        <p class="analyse-f-text">kindly share your thoughts and experiences concisely. Mention what you liked, what could be improved, and any suggestions you have.</p>
+                        
+                        
+                    
                     </div>
-                    <div class="additonal-f-img">
+                </div>
+                
+                <div class="carousel-item">
+                    <div class="analyse-f">
+                        <h3 class="analyse-f-heading"><strong>GUIDE</strong></h3>
+                        <img src="public/images/news.gif" class="analyse-f-img" >
+                        
+                        
+                        
+                        <hr>
+                        <br>
+                        <p class="analyse-f-text">Helps beginners by demystifying the world of stocks, offering clear explanations of key concepts, risk management strategies, and tips for successful investing.</p>
+                    </div> 
+                    
 
+                </div>
+                <div class="carousel-item">
+                    <div class="analyse-f">
+                        <h3 class="analyse-f-heading">Analyse</h3>
+                        <br>
+                        <img class="analyse-f-img" src="public/images/analyse.gif">
+                        <hr>
+                        <p class="analyse-f-text">Analyse real-time stock data and share market trends. Identify patterns and correlations to provide insights into potential investment opportunities and risks.</p>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <div class="predict-f">
+                        <h3 class="predict-f-heading">Predict</h3>
+                        <br>
+                        <img class="predict-f-img" src="public/images/predict.gif">
+                        <hr>
+                        <p class="predict-f-text">Helps you in investing by prediciting market conditions based on historical price and volume data of financial instruments.</p>
+                    </div>
+                </div>
+
             </div>
             
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
         </div>
-    </section>
-    <!-- c section ends here -->
+    </div>
     
 </body>
 </html>
