@@ -217,7 +217,7 @@ hr.first{
   flex-direction: row;
   justify-content: space-evenly;
 }
-.analyse-f{
+.analyse-f,.feedback-f, .guide-f{
   width: 500px;
   border-radius: 10px;
   border-style: solid;
@@ -230,14 +230,14 @@ hr.first{
   background-size: cover;
 
 }
-.analyse-f-heading{
+.analyse-f-heading,.feedback-f-heading,.guide-f-heading{
   font-size: 2rem;
   text-align: center;
   font-family: 'Black Ops One', cursive;
   color: #504099;
   text-shadow: 2px 2px #cdc3f5 ;
 }
-.analyse-f-text{
+.analyse-f-text,.feedback-f-text,.guide-f-text{
   text-align: justify;
   font-family: 'Stint Ultra Condensed', serif;
   font-size: 1.7rem;
@@ -246,10 +246,11 @@ hr.first{
   border-radius: 10px;
   background-color: #ffffff9e;
 }
-.analyse-f-img{
+.analyse-f-img,.feedback-f-img,.guide-f-img{
   height:300px;
   width: 400px;
 }
+
 .predict-f{
   width: 500px;
   border-style: solid;
@@ -287,15 +288,11 @@ hr.first{
 .container-c{
   margin:5%;
   text-align:center;
-  
-  background-size:cover;
-  border-style: solid;
-  border-radius: 10px;
-  border-color: #504099;
-  padding:4%;
-  box-shadow : 20px 10px #504099;
   background-image: url("public/images/n-l-2.jpg");
-  background-size: cover;
+  border-color: #504099;
+  border-style: solid;
+  box-shadow : 20px 10px #504099;
+  border-radius: 10px;
 }
 .demo{
   height:600px;
@@ -305,7 +302,6 @@ hr.first{
   padding-top:auto;
   align-items: center;
   height:900px;
-  
 }
 .carousel-item{
   height: 550px;
@@ -329,9 +325,13 @@ hr.first{
   
 }
 .img-news, .img-guide, .img-feedback {
-  height:300px;
+  height:350px;
   width:600px;
   border-radius: 20px;
+}
+.img-guide{
+  width:500px;
+  height:350px;
 }
 .heading-card{
   font-size: 2rem;
@@ -347,5 +347,38 @@ hr.first{
   font-size: 7rem;
 
 }
+/*footer*/
+.footer{
+  text-align: center;
+  background-color: #504099;
+  padding:3%;
+  animation-name:footer;
+  animation-duration:5s;
+  animation-iteration-count:infinite;
+  animation-timing-function:ease-in-out;
+}
+@keyframes footer{
 
-
+}
+.footer-txt{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Stint Ultra Condensed', serif;
+  width: 600px;
+  color:whitesmoke;
+  font-size: 1.7rem;
+}
+.footer-heading{
+  font-family: 'Black Ops One', cursive;
+  color:whitesmoke;
+  font-size: 1.7rem;
+}
+.footer-subheading{
+  font-family: 'Rajdhani', sans-serif;
+  color:whitesmoke;
+  font-size: 1.4rem;
+}
+.footer-hr{
+  border-style: solid;
+  border-color: whitesmoke;
+}
