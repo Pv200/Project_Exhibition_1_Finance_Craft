@@ -382,3 +382,175 @@ hr.first{
   border-style: solid;
   border-color: whitesmoke;
 }
+/*feedback-part*/
+
+.navbar-div-user{
+  padding : 2% 2%;
+  padding-bottom: 3%;
+}
+.user-div{
+  text-align: center;
+  
+}
+.User-h1{
+  font-size: 5.9rem;
+  font-family: 'Black Ops One', cursive;
+  color: #edebf1;
+}
+.span-h1{
+  font-size: 2rem;
+  font-family: 'Rajdhani', sans-serif;
+}
+.img-1-user{
+  height: 300px;
+  width:300px;
+}
+.button-c-2{
+  color:#daddd2;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 0.71%;
+  background-color: rgb(195, 105, 236);
+  border-radius: 6px;
+  border: #f03aea solid 2px;
+  cursor: pointer;
+}
+.button-c-2:active{
+  color:white;
+  background-color: #b20ee8;
+}
+.feedback-1{
+  align-items:center;
+  text-align: center;
+  
+  font-size: 5.9rem;
+  font-family: 'Black Ops One', cursive;
+  color: #edebf1;
+}
+.user-page-body{
+  background: rgb(238,174,202);
+  background: linear-gradient(180deg, rgba(238,174,202,1) 30%, rgba(222,148,233,1) 72%);
+}
+/*form-part*/
+
+.feedback-1-container{
+  margin:40px;
+}
+.feedback-2-container{
+  font-size: 2rem;
+  font-family: 'Rajdhani', sans-serif;
+  align-items: center;
+  text-align: center;
+  margin:250px;
+  margin-top:0%;
+  margin-bottom:2%;
+  border: #edebf1 1px solid;
+
+  border-radius: 6px;
+
+}
+
+.feedback-sye{
+  
+  font-size: 5.9rem;
+  font-family: 'Black Ops One', cursive;
+}
+.feedback-pd{
+  font-size: 5.9rem;
+  font-family: 'Black Ops One', cursive;
+}
+.question-feed{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+  margin-left:42.5px;
+}
+.rate-div{
+  width:100px;
+  height:40px;
+  align-items: center;
+
+  
+  
+}
+.ps-c-1{
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  
+}
+
+#input-n{
+  width: 85%;
+  
+  
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+.fname{
+  height:100px;
+}
+.tab-name{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+.tab-contact{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+#input-s{
+  width: 90%;
+  
+  padding: 48px 55px;
+  margin: 50px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#btn-feedback-submit{
+  color:#daddd2;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 0.71%;
+  background-color: rgb(195, 105, 236);
+  border-radius: 6px;
+  border: #f03aea solid 2px;
+  cursor: pointer;
+}
+#btn-feedback-submit:active{
+  color:white;
+  background-color: #b20ee8;
+}
+.rating-sec{
+  padding : 5%;
+  justify-content: center;
+}
+.hr-user{
+  border: white 1px;
+  border-style: groove;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+#thankyoumessage{
+  display: none;
+  color: #f03aea;
+  background-color: #edebf1;
+  margin-left:42px;
+  margin-right: 42px;
+  border-radius:6px;
+  border: #f03aea solid 1px;
+
+}
