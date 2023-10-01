@@ -12,6 +12,9 @@ app.use(express.static("public"));
 app.get("/home",function(req,res){
     res.render("index.ejs");
 });
+app.get("/",function(req,res){
+    res.render("index.ejs");
+});
 
 app.get("/feedback",function(req,res){
     res.render("user.ejs");
