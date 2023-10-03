@@ -20,6 +20,14 @@ app.get("/feedback",function(req,res){
     res.render("user.ejs");
 });
 
+app.get("/guide",function(req,res){
+    res.render("Guide.ejs");
+});
+
+app.get("/pdf",function(req,res){
+    res.render("guidepadf.ejs");
+});
+
 app.listen(3000,function(){
     console.log("Server started.")
   });
